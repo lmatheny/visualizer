@@ -64,7 +64,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Demo Screenshot
 
-![Demo Screenshot](demo/demo.png)
+<p align="center">
+  <img src="demo/vis.png" alt="Object Visualizer Demo" width="800" height="400">
+</p>
 
 ---
 
