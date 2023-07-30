@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Object Visualizer (Algorithm Debugger)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Object Visualizer, formerly known as LeetCode Bedbugger, is a web application designed to assist coders in visualizing and debugging their algorithms during loops and other iterations. It allows users to create variable names and track their corresponding types, values, and notes in a table format. This project was born out of the need for an efficient debugging tool during coding challenges and projects. While previously using Google Docs for this process, the realization that a more specialized and streamlined solution was required led to the development of Object Visualizer.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. **Variable Table**: Object Visualizer provides a dynamic table where users can add and delete rows. Each row represents a variable and contains columns for the variable name, type, value, and notes. This feature allows coders to keep track of different variables and their states during code execution.
 
-### `npm start`
+2. **Interactive Code Testing**: The application integrates an iframe from OneCompiler, a powerful online compiler and IDE. This integration allows users to test code snippets in various programming languages directly within the Object Visualizer interface. The real-time feedback from the compiler assists users in debugging their code efficiently.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Material UI and Bootstrap Integration**: Object Visualizer utilizes Material UI and Bootstrap to ensure a polished and responsive user interface. Material UI components enhance the visual appeal and interactivity of the application, while Bootstrap provides a responsive layout suitable for various devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **RSuite Table Component**: The variable table in Object Visualizer is built using the RSuite library, which offers feature-rich and customizable table components. RSuite provides a seamless and user-friendly experience for managing variables during code execution.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To use Object Visualizer on your local machine, follow these steps:
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/object-visualizer.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd object-visualizer
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm start
+```
 
-### Code Splitting
+2. Access Object Visualizer by opening your web browser and visiting `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Use the "Add Row" button to create new variable entries in the table. Fill in the variable name, type, value, and notes for each entry.
 
-### Analyzing the Bundle Size
+4. Use the "Delete Row" button to remove any unnecessary or redundant rows.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. To test code snippets in different programming languages, enter the code in the iframe from OneCompiler and select the desired language from the dropdown menu.
 
-### Making a Progressive Web App
+6. Save, export, or share your variable table with others by using the corresponding options in the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### License
 
-### Advanced Configuration
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Demo Screenshot
 
-### Deployment
+![Demo Screenshot](demo/demo.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Object Visualizer, formerly known as LeetCode Bedbugger, aims to simplify code visualization and debugging for coders. As a former user of Google Docs for this purpose, the realization that a specialized tool could significantly improve the workflow led to the development of Object Visualizer. It is our hope that this application will not only enhance the coding experience for ourselves but also prove helpful to other coders and developers in their coding endeavors. The README provides an overview of the application's features, installation instructions, usage guidelines, and details about the included dependencies: Material UI, Bootstrap, and RSuite. Remember to replace placeholders like "your-username" with your actual GitHub username, and "demo/demo.png" with the correct file path to the demo screenshot. If you have any further questions or need additional assistance, feel free to ask. Happy coding!
